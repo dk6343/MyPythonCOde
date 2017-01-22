@@ -18,14 +18,14 @@ factor = raw_input()
 print "--Modified Recipe--"
 
 # Hi David, notice that I added () around your calculation
-print "Flour %.2f cups." % (int(flour)*int(factor))
-print "Water %.2f cups." % (int (water)*int(factor))
-print "Salt %.2f teaspoons." % (int(salt)*int(factor))
-print "Yeast %.2f teaspoons" % (int(yeast)*int(factor))
+print "Flour %.2f cups." % (float(flour)*float(factor))
+print "Water %.2f cups." % (float(water)*float(factor))
+print "Salt %.2f teaspoons." % (float(salt)*float(factor))
+print "Yeast %.2f teaspoons" % (float(yeast)*float(factor))
 
 print "--Modified Recipe in grams--"
 
-print "Flour %.2f g." % (int(flour)*int(factor)*125.0)
-print "Water %.2f g." % (int(water)*int(factor)*236.0)
-print "Salt %.2f g." % (int(salt)*int(factor)*7.0)
-print "Yeast %.2f g." % (int(yeast)*int(factor)*3.0)
+print "Flour %.2f g." % (float(flour)*float(factor)*125.0)
+print "Water %.2f g." % (float(water)*float(factor)*236.0)
+print "Salt %.2f g." % (float(salt)*float(factor)*7.0)
+print "Yeast %.2f g." % (float(yeast)*float(factor)*3.0)

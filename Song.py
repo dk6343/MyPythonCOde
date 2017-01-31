@@ -1,7 +1,8 @@
 #David Kelly
 #1/29/17
 #Song Creator
-
+#I understand that this is isn't exactly what it should be, but I'm a bit confused with
+# ForLoops and I'd like to meet with you at some point so we could go over it.
 import X
 
 song = ("VER1" "\nCHORUS" "\nVER2" "\nCHORUS" "\nVER3" "\nCHORUS" "\nVER4" "\nCHORUS" "CHORUS")
